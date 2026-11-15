@@ -5,7 +5,7 @@
 const I18N_DATA = {
     es: {
         meta_title: "TorkeToolkit — Suite de Rendimiento, Mantenimiento y Taller para Windows",
-        meta_desc: "TorkeToolkit v3.0.0 — Software nativo de optimización, instalador inteligente de programas, monitor en vivo y suite técnica para Windows 10 y 11. Sin suscripciones ni telemetría.",
+        meta_desc: "TorkeToolkit v3.1.0 — Software nativo de optimización, instalador inteligente de programas, monitor en vivo y suite técnica para Windows 10 y 11. Sin suscripciones ni telemetría.",
         
         // Navbar
         nav_features: "Características",
@@ -16,7 +16,7 @@ const I18N_DATA = {
         nav_download_btn: "Descargar",
 
         // Hero
-        hero_badge: "TorkeToolkit v3.0.0 Oficial",
+        hero_badge: "TorkeToolkit v3.1.0 Oficial",
         hero_title_html: "La Suite Definitiva de <span class=\"gradient-text\">Rendimiento, Mantenimiento</span> y Taller para Windows",
         hero_sub: "Software nativo en C# (.NET 10) que optimiza la latencia del sistema, instala aplicaciones sin publicidad, diagnostica hardware en tiempo real y genera informes técnicos en PDF. Cero telemetría. Sin suscripciones mensuales.",
         hero_btn_installer: "Descargar Instalador (.exe)",
@@ -36,21 +36,24 @@ const I18N_DATA = {
         showcase_title: "Diseñado para Máximo Control y Claridad",
         showcase_sub: "Una estética moderna en modo oscuro desarrollada para gamers exigentes y técnicos profesionales de taller.",
         tab_opt: "⚡ Optimización",
+        tab_gaming: "🎮 Gaming Pro",
+        tab_ram: "🧠 Optimización RAM",
         tab_apps: "📦 Catálogo de Software",
         tab_monitor: "📊 Monitor en Vivo",
         tab_tech: "🛠️ Taller Técnico (T3)",
-        tab_system: "💻 Sistema y Specs",
         
         slide_0_title: "TorkeToolkit — Módulo de Optimización de Sistema",
-        slide_0_caption: "Perfiles calibrados de latencia: Minimal, Safe, Recomendada, Gaming (FPS Boost) y Extrema con Rollback en 1-Clic.",
-        slide_1_title: "TorkeToolkit Installer Pro — Gestor Multihilo de Aplicaciones",
-        slide_1_caption: "Instala navegadores, launchers de juegos y herramientas esenciales sin instaladores basura y con barra de descarga en vivo.",
-        slide_2_title: "TorkeToolkit — Monitor de Rendimiento y Recursos",
-        slide_2_caption: "Métricas en vivo actualizadas cada 2 segundos: temperatura CPU en tiempo real, consumo de RAM y almacenamiento.",
-        slide_3_title: "TorkeToolkit — Taller Técnico y Reportes PDF (Tier 3)",
-        slide_3_caption: "Herramientas profesionales de rescate: reparación de Spooler/Windows Update y generador de informes técnicos en PDF.",
-        slide_4_title: "TorkeToolkit — Especificaciones y Gestión del Sistema",
-        slide_4_caption: "Detección profunda de componentes (CPU Xeon/Core/Ryzen, GPU, RAM, Disco) y administración rápida de cuentas de usuario.",
+        slide_0_caption: "Perfiles calibrados de latencia: Mínima, Segura, Recomendada, Gaming (FPS + Latencia) y Extrema con reversión en 1 clic.",
+        slide_1_title: "TorkeToolkit — Gaming Pro & Game Booster",
+        slide_1_caption: "Audita tu Gaming Readiness Score (0-100%), aplica ajustes de baja latencia DPC/MSI y activa el Modo Torneo en vivo.",
+        slide_2_title: "TorkeToolkit — MemEngine Pro & Gestión de RAM",
+        slide_2_caption: "Liberación inteligente sin tirones en juegos, Piloto Automático de RAM y optimización automática adaptada a tu hardware.",
+        slide_3_title: "TorkeToolkit Installer — Gestor Multihilo de Aplicaciones",
+        slide_3_caption: "Instala navegadores, launchers de juegos y herramientas esenciales sin instaladores basura y con barra de descarga en vivo.",
+        slide_4_title: "TorkeToolkit — Monitor de Rendimiento y Recursos",
+        slide_4_caption: "Métricas en vivo actualizadas cada 2 segundos: uso de CPU, memoria RAM, almacenamiento y top de procesos.",
+        slide_5_title: "TorkeToolkit — Taller Técnico y Reportes PDF (Tier 3)",
+        slide_5_caption: "Asistente 1-Clic para PC recién formateada, auditoría comparativa Antes vs Después e informes técnicos certificados en PDF.",
 
         // Features
         feat_tag: "Capacidades Clave",
@@ -83,7 +86,7 @@ const I18N_DATA = {
         dl_c1_f2: "Acceso directo en Menú Inicio y Escritorio",
         dl_c1_f3: "Desinstalador limpio integrado",
         dl_c1_f4: "Actualización automática asistida",
-        dl_c1_btn: "Descargar Instalador (v3.0.0)",
+        dl_c1_btn: "Descargar Instalador (v3.1.0)",
 
         dl_c2_title: "Edición Portable",
         dl_c2_sub: "Sin Instalación · Standalone / ZIP (~60 MB)",
@@ -156,7 +159,7 @@ const I18N_DATA = {
 
     en: {
         meta_title: "TorkeToolkit — Windows Performance, Maintenance & Workshop Suite",
-        meta_desc: "TorkeToolkit v3.0.0 — Native optimization software, intelligent app installer, real-time hardware monitor, and IT workshop suite for Windows 10 & 11. No subscriptions, zero telemetry.",
+        meta_desc: "TorkeToolkit v3.1.0 — Native optimization software, intelligent app installer, real-time hardware monitor, and IT workshop suite for Windows 10 & 11. No subscriptions, zero telemetry.",
         
         // Navbar
         nav_features: "Features",
@@ -167,7 +170,7 @@ const I18N_DATA = {
         nav_download_btn: "Download",
 
         // Hero
-        hero_badge: "TorkeToolkit v3.0.0 Official",
+        hero_badge: "TorkeToolkit v3.1.0 Official",
         hero_title_html: "The Ultimate <span class=\"gradient-text\">Performance, Maintenance</span> & Workshop Suite for Windows",
         hero_sub: "Native C# (.NET 10) application that optimizes system latency, installs software clean and ad-free, diagnoses hardware in real time, and generates certified technical PDF reports. Zero telemetry. No monthly subscriptions.",
         hero_btn_installer: "Download Installer (.exe)",
@@ -187,21 +190,24 @@ const I18N_DATA = {
         showcase_title: "Engineered for Ultimate Control & Clarity",
         showcase_sub: "A sleek modern dark aesthetic crafted for demanding gamers and professional IT technicians.",
         tab_opt: "⚡ Optimization",
+        tab_gaming: "🎮 Gaming Pro",
+        tab_ram: "🧠 RAM Optimizer",
         tab_apps: "📦 Software Catalog",
         tab_monitor: "📊 Live Monitor",
         tab_tech: "🛠️ IT Workshop (T3)",
-        tab_system: "💻 System & Specs",
         
         slide_0_title: "TorkeToolkit — System Optimization Module",
-        slide_0_caption: "Fine-calibrated latency profiles: Minimal, Safe, Recommended, Gaming (FPS Boost), and Extreme with 1-Click Rollback.",
-        slide_1_title: "TorkeToolkit Installer Pro — Multithreaded App Manager",
-        slide_1_caption: "Install top browsers, game launchers, and essential utilities ad-free with real-time download progress bars.",
-        slide_2_title: "TorkeToolkit — Performance & Resource Monitor",
-        slide_2_caption: "Live metrics refreshed every 2 seconds: real-time CPU temp, RAM utilization, and storage capacity.",
-        slide_3_title: "TorkeToolkit — Technical Workshop & PDF Reports (Tier 3)",
-        slide_3_caption: "Professional rescue toolkit: Windows Update & Spooler repairs, plus certified vector PDF technical report generation.",
-        slide_4_title: "TorkeToolkit — Hardware Specifications & System Management",
-        slide_4_caption: "Deep hardware audit (CPU Xeon/Core/Ryzen, GPU, RAM, Disks) and instant user account management.",
+        slide_0_caption: "Fine-calibrated latency profiles: Minimal, Safe, Recommended, Gaming (FPS + Latency), and Extreme with 1-Click Rollback.",
+        slide_1_title: "TorkeToolkit — Gaming Pro & Game Booster",
+        slide_1_caption: "Audit your Gaming Readiness Score (0-100%), apply low-latency DPC/MSI tweaks, and trigger Live Tournament Mode.",
+        slide_2_title: "TorkeToolkit — MemEngine Pro & RAM Management",
+        slide_2_caption: "Stutter-free smart RAM purge during gameplay, RAM Autopilot, and hardware-adaptive memory tuning.",
+        slide_3_title: "TorkeToolkit Installer — Multithreaded App Manager",
+        slide_3_caption: "Install top browsers, game launchers, and essential utilities ad-free with real-time download progress bars.",
+        slide_4_title: "TorkeToolkit — Performance & Resource Monitor",
+        slide_4_caption: "Live metrics refreshed every 2 seconds: CPU load, RAM usage, storage capacity, and top processes.",
+        slide_5_title: "TorkeToolkit — Technical Workshop & PDF Reports (Tier 3)",
+        slide_5_caption: "1-Click Fresh-Format Setup Wizard, Before vs After performance audit, and certified vector PDF client reports.",
 
         // Features
         feat_tag: "Key Capabilities",
@@ -234,7 +240,7 @@ const I18N_DATA = {
         dl_c1_f2: "Start Menu & Desktop shortcuts",
         dl_c1_f3: "Clean uninstaller included",
         dl_c1_f4: "Assisted auto-update system",
-        dl_c1_btn: "Download Installer (v3.0.0)",
+        dl_c1_btn: "Download Installer (v3.1.0)",
 
         dl_c2_title: "Portable Edition",
         dl_c2_sub: "No Installation · Standalone / ZIP (~60 MB)",
@@ -307,7 +313,7 @@ const I18N_DATA = {
 
     pt: {
         meta_title: "TorkeToolkit — Suite de Desempenho, Manutenção e Oficina para Windows",
-        meta_desc: "TorkeToolkit v3.0.0 — Software nativo de otimização, instalador inteligente de aplicativos, monitor em tempo real e suite técnica para Windows 10 e 11. Sem assinaturas nem telemetria.",
+        meta_desc: "TorkeToolkit v3.1.0 — Software nativo de otimização, instalador inteligente de aplicativos, monitor em tempo real e suite técnica para Windows 10 e 11. Sem assinaturas nem telemetria.",
         
         // Navbar
         nav_features: "Recursos",
@@ -318,7 +324,7 @@ const I18N_DATA = {
         nav_download_btn: "Baixar",
 
         // Hero
-        hero_badge: "TorkeToolkit v3.0.0 Oficial",
+        hero_badge: "TorkeToolkit v3.1.0 Oficial",
         hero_title_html: "A Suite Definitiva de <span class=\"gradient-text\">Desempenho, Manutenção</span> e Oficina para Windows",
         hero_sub: "Software nativo em C# (.NET 10) que otimiza a latência do sistema, instala aplicativos sem anúncios, diagnostica hardware em tempo real e gera relatórios técnicos em PDF. Zero telemetria. Sem assinaturas mensais.",
         hero_btn_installer: "Baixar Instalador (.exe)",
@@ -338,21 +344,24 @@ const I18N_DATA = {
         showcase_title: "Projetado para Máximo Controle e Clareza",
         showcase_sub: "Estética moderna em modo escuro desenvolvida para gamers exigentes e técnicos profissionais de suporte.",
         tab_opt: "⚡ Otimização",
+        tab_gaming: "🎮 Gaming Pro",
+        tab_ram: "🧠 Otimização RAM",
         tab_apps: "📦 Catálogo de Softwares",
         tab_monitor: "📊 Monitor em Tempo Real",
         tab_tech: "🛠️ Oficina Técnica (T3)",
-        tab_system: "💻 Sistema e Specs",
         
         slide_0_title: "TorkeToolkit — Módulo de Otimização do Sistema",
-        slide_0_caption: "Perfis calibrados de latência: Minimal, Safe, Recomendada, Gaming (FPS Boost) e Extrema com Rollback em 1 Clique.",
-        slide_1_title: "TorkeToolkit Installer Pro — Gerenciador Multithread de Aplicativos",
-        slide_1_caption: "Instale navegadores, inicializadores de jogos e utilitários sem programas indesejados e com barra de download em tempo real.",
-        slide_2_title: "TorkeToolkit — Monitor de Desempenho e Recursos",
-        slide_2_caption: "Métricas em tempo real atualizadas a cada 2s: temperatura da CPU, uso de memória RAM e capacidade do disco.",
-        slide_3_title: "TorkeToolkit — Oficina Técnica e Relatórios PDF (Nível 3)",
-        slide_3_caption: "Ferramentas profissionais de resgate: reparo de Spooler/Windows Update e gerador de relatórios técnicos em PDF.",
-        slide_4_title: "TorkeToolkit — Especificações e Gerenciamento do Sistema",
-        slide_4_caption: "Auditoria detalhada de hardware (CPU Xeon/Core/Ryzen, GPU, RAM, Discos) e gerenciamento rápido de contas de usuário.",
+        slide_0_caption: "Perfis calibrados de latência: Minimal, Safe, Recomendada, Gaming (FPS + Latência) e Extrema com Rollback em 1 Clique.",
+        slide_1_title: "TorkeToolkit — Gaming Pro & Game Booster",
+        slide_1_caption: "Audite seu Gaming Readiness Score (0-100%), aplique ajustes de baixa latência DPC/MSI e ative o Modo Torneio.",
+        slide_2_title: "TorkeToolkit — MemEngine Pro & Gestão de RAM",
+        slide_2_caption: "Limpeza inteligente sem travamentos em jogos, Piloto Automático de RAM e ajuste adaptado ao seu hardware.",
+        slide_3_title: "TorkeToolkit Installer — Gerenciador Multithread de Aplicativos",
+        slide_3_caption: "Instale navegadores, inicializadores de jogos e utilitários sem programas indesejados e com barra de download em tempo real.",
+        slide_4_title: "TorkeToolkit — Monitor de Desempenho e Recursos",
+        slide_4_caption: "Métricas em tempo real atualizadas a cada 2s: uso de CPU, memória RAM, armazenamento e top processos.",
+        slide_5_title: "TorkeToolkit — Oficina Técnica e Relatórios PDF (Nível 3)",
+        slide_5_caption: "Assistente 1-Clique para PC recém-formatado, auditoria comparativa Antes vs Depois e relatórios certificados em PDF.",
 
         // Features
         feat_tag: "Principais Recursos",
@@ -385,7 +394,7 @@ const I18N_DATA = {
         dl_c1_f2: "Atalhos no Menu Iniciar e Área de Trabalho",
         dl_c1_f3: "Desinstalador limpo integrado",
         dl_c1_f4: "Atualização automática assistida",
-        dl_c1_btn: "Baixar Instalador (v3.0.0)",
+        dl_c1_btn: "Baixar Instalador (v3.1.0)",
 
         dl_c2_title: "Edição Portátil",
         dl_c2_sub: "Sem Instalação · Standalone / ZIP (~60 MB)",
@@ -498,7 +507,8 @@ function setLanguage(lang) {
         { title: t.slide_1_title, caption: t.slide_1_caption },
         { title: t.slide_2_title, caption: t.slide_2_caption },
         { title: t.slide_3_title, caption: t.slide_3_caption },
-        { title: t.slide_4_title, caption: t.slide_4_caption }
+        { title: t.slide_4_title, caption: t.slide_4_caption },
+        { title: t.slide_5_title, caption: t.slide_5_caption }
     ];
 
     const slides = document.querySelectorAll('.mockup-slide');
