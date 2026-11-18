@@ -579,13 +579,13 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (e) {}
 
     if (!savedLang) {
-        const browserLang = (navigator.language || navigator.userLanguage || 'es').toLowerCase();
+        const browserLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
         if (browserLang.startsWith('pt')) {
             savedLang = 'pt';
-        } else if (browserLang.startsWith('en')) {
-            savedLang = 'en';
-        } else {
+        } else if (browserLang.startsWith('es')) {
             savedLang = 'es';
+        } else {
+            savedLang = 'en';
         }
     }
 
