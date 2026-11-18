@@ -5,15 +5,15 @@
 **La Suite Definitiva de Rendimiento, Centro de Drivers, Battery Guard y Taller Técnico para Windows 10 y 11**
 
 [![Última Versión](https://img.shields.io/badge/Release-v3.2.0-3b82f6?style=for-the-badge&logo=github)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)
-[![Plataforma](https://img.shields.io/badge/Plataforma-Windows%2010%20%7C%2011%20(x64)-0078d4?style=for-the-badge&logo=windows)](https://optiroder.github.io/)
-[![Runtime](https://img.shields.io/badge/.NET%2010-Nativo%20Autocontenido-8b5cf6?style=for-the-badge&logo=dotnet)](https://optiroder.github.io/)
+[![Plataforma](https://img.shields.io/badge/Plataforma-Windows%2010%20%7C%2011%20(x64)-0078d4?style=for-the-badge&logo=windows)](https://torktoolkit.com/)
+[![Runtime](https://img.shields.io/badge/.NET%2010-Nativo%20Autocontenido-8b5cf6?style=for-the-badge&logo=dotnet)](https://torktoolkit.com/)
 [![Privacidad](https://img.shields.io/badge/Telemetr%C3%ADa-Cero%20(100%25%20Offline)-10b981?style=for-the-badge)](https://github.com/OptiRoder/TorkeToolkit-Suite)
 
-🌐 **[Sitio Web Oficial](https://optiroder.github.io/)** • 📥 **[Descargar Última Versión (v3.2.0)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[English (README.md)](./README.md)** • 📋 **[Changelog](./CHANGELOG_es.md)**
+🌐 **[Sitio Web Oficial](https://torktoolkit.com/)** • 📥 **[Descargar Última Versión (v3.2.0)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[English (README.md)](./README.md)** • 📋 **[Changelog](./CHANGELOG_es.md)**
 
 ---
 
-![TorkeToolkit System Optimization](https://optiroder.github.io/source/shot-optimization-2x.webp)
+![TorkeToolkit System Optimization](https://torktoolkit.com/source/shot-optimization-2x.webp)
 
 </div>
 
@@ -35,7 +35,7 @@
 Inicia TorkeToolkit Portable al instante desde una consola de **PowerShell (Administrador)**:
 
 ```powershell
-irm https://optiroder.github.io/toolkit.ps1 | iex
+irm https://torktoolkit.com/toolkit.ps1 | iex
 ```
 
 ---
@@ -56,7 +56,7 @@ irm https://optiroder.github.io/toolkit.ps1 | iex
 
 Si **TorkeToolkit** mejora el rendimiento de tu PC o te ahorra horas de trabajo en tu taller técnico, puedes apoyar el desarrollo independiente:
 
-- 💖 **[Donar y Apoyar en la Web Oficial](https://optiroder.github.io/#donaciones)**
+- 💖 **[Donar y Apoyar en la Web Oficial](https://torktoolkit.com/#donaciones)**
 - ⭐ **Deja una estrella (Star)** en este repositorio de GitHub.
 
 ---
