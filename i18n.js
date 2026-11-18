@@ -11,7 +11,10 @@ const I18N_DATA = {
         nav_features: "Características",
         nav_interface: "Interfaz",
         nav_downloads: "Descargas",
+        nav_docs: "Documentación",
         nav_pricing: "Precios",
+        nav_donate: "Donar",
+        nav_socials: "Redes",
         nav_faq: "Preguntas",
         nav_download_btn: "Descargar",
 
@@ -21,6 +24,9 @@ const I18N_DATA = {
         hero_sub: "Software nativo en C# (.NET 10) que optimiza la latencia del sistema, instala aplicaciones sin publicidad, diagnostica hardware en tiempo real y genera informes técnicos en PDF. Cero telemetría. Sin suscripciones mensuales.",
         hero_btn_installer: "Descargar Instalador (.exe)",
         hero_btn_portable: "Versión Portable (Sin instalación)",
+        hero_btn_docs: "Ver Documentación en GitHub",
+        hero_btn_donate: "Donar / Apoyar",
+        hero_btn_socials: "Redes Oficiales",
         hero_cmd_label: "O inicia al instante desde PowerShell (Administrador):",
         hero_copy_btn: "Copiar",
         hero_copied: "¡Copiado!",
@@ -153,6 +159,25 @@ const I18N_DATA = {
         faq_a5: "El identificador de hardware (HWID) utiliza un algoritmo tolerante de huella digital de placa base y procesador. Formatear el disco duro o reinstalar Windows mantendrá tu activación intacta automáticamente.",
 
         // Footer
+        dl_btn_docs: "Leer Documentación Completa y README en GitHub",
+        dl_btn_releases: "Ver Todas las Versiones y Changelog (TorkeToolkit-Suite)",
+        donate_tag: "Apoya el Desarrollo Independiente",
+        donate_title: "Donaciones y Apoyo a TorkeToolkit",
+        donate_sub: "Tu aporte ayuda a mantener TorkeToolkit 100% libre de anuncios, financiar certificados de firma digital y desarrollar nuevas herramientas para Windows.",
+        donate_c1_title: "Donación por PayPal",
+        donate_c1_desc: "Aporte directo único de cualquier monto para impulsar el desarrollo y mantenimiento continuo.",
+        donate_c1_btn: "Donar con PayPal",
+        donate_c2_title: "Ko-fi / Invítame un Café",
+        donate_c2_desc: "Impulsa las sesiones de código, correcciones de bugs y expansión de la base de drivers.",
+        donate_c2_btn: "Apoyar en Ko-fi",
+        donate_c3_title: "Estrella y Sponsor en GitHub",
+        donate_c3_desc: "Deja una estrella en nuestro repositorio oficial o comparte TorkeToolkit con gamers y técnicos.",
+        donate_c3_btn: "Dar Estrella en GitHub",
+        socials_tag: "Comunidad y Novedades",
+        socials_title: "Redes Sociales Oficiales",
+        socials_sub: "Sigue nuestros canales oficiales para comparativas de FPS, changelogs y tutoriales de optimización en Windows.",
+        social_coming_soon: "@TorkeToolkit · Próximamente",
+        placeholder_notice: "{0}: ¡Enlace disponible muy pronto!",
         footer_desc_html: "<strong style=\"color:#fff;\">TorkeToolkit</strong> — Suite Profesional de Optimización by <strong>RODER</strong>",
         footer_rights: "© 2026 RODER. Todos los derechos reservados. Desarrollado con C# y .NET 10."
     },
@@ -165,7 +190,10 @@ const I18N_DATA = {
         nav_features: "Features",
         nav_interface: "Interface",
         nav_downloads: "Downloads",
+        nav_docs: "Docs",
         nav_pricing: "Pricing",
+        nav_donate: "Donate",
+        nav_socials: "Socials",
         nav_faq: "FAQ",
         nav_download_btn: "Download",
 
@@ -175,6 +203,9 @@ const I18N_DATA = {
         hero_sub: "Native C# (.NET 10) application that optimizes system latency, installs software clean and ad-free, diagnoses hardware in real time, and generates certified technical PDF reports. Zero telemetry. No monthly subscriptions.",
         hero_btn_installer: "Download Installer (.exe)",
         hero_btn_portable: "Portable Edition (No install)",
+        hero_btn_docs: "Documentation on GitHub",
+        hero_btn_donate: "Donate / Support",
+        hero_btn_socials: "Official Socials",
         hero_cmd_label: "Or launch instantly via PowerShell (Administrator):",
         hero_copy_btn: "Copy",
         hero_copied: "Copied!",
@@ -307,6 +338,25 @@ const I18N_DATA = {
         faq_a5: "The hardware identifier (HWID) uses a fault-tolerant fingerprint based on the motherboard and processor. Formatting disks or reinstalling Windows preserves your activation automatically.",
 
         // Footer
+        dl_btn_docs: "Read Full Documentation & README on GitHub",
+        dl_btn_releases: "View All Releases & Changelog (TorkeToolkit-Suite)",
+        donate_tag: "Support Independent Development",
+        donate_title: "Donate & Support TorkeToolkit",
+        donate_sub: "Your contribution helps keep TorkeToolkit 100% ad-free, fund EV code-signing certificates, and develop new Windows optimization tools.",
+        donate_c1_title: "PayPal Donation",
+        donate_c1_desc: "Direct one-time contribution of any amount to support ongoing engineering and maintenance.",
+        donate_c1_btn: "Donate with PayPal",
+        donate_c2_title: "Ko-fi / Buy Me a Coffee",
+        donate_c2_desc: "Fuel late-night coding sessions, bug fixes, and driver database expansions with a quick coffee.",
+        donate_c2_btn: "Support on Ko-fi",
+        donate_c3_title: "GitHub Star & Sponsor",
+        donate_c3_desc: "Leave a star on our official repository or share TorkeToolkit with gamers and IT technicians.",
+        donate_c3_btn: "Star on GitHub",
+        socials_tag: "Community & Updates",
+        socials_title: "Official Social Media",
+        socials_sub: "Follow our official channels for FPS benchmark comparisons, update changelogs, and Windows optimization tutorials.",
+        social_coming_soon: "@TorkeToolkit · Coming Soon",
+        placeholder_notice: "{0}: Official link coming soon!",
         footer_desc_html: "<strong style=\"color:#fff;\">TorkeToolkit</strong> — Professional Optimization Suite by <strong>RODER</strong>",
         footer_rights: "© 2026 RODER. All rights reserved. Built with C# & .NET 10."
     },
@@ -319,7 +369,10 @@ const I18N_DATA = {
         nav_features: "Recursos",
         nav_interface: "Interface",
         nav_downloads: "Downloads",
+        nav_docs: "Documentação",
         nav_pricing: "Preços",
+        nav_donate: "Doar",
+        nav_socials: "Redes",
         nav_faq: "Perguntas",
         nav_download_btn: "Baixar",
 
@@ -329,6 +382,9 @@ const I18N_DATA = {
         hero_sub: "Software nativo em C# (.NET 10) que otimiza a latência do sistema, instala aplicativos sem anúncios, diagnostica hardware em tempo real e gera relatórios técnicos em PDF. Zero telemetria. Sem assinaturas mensais.",
         hero_btn_installer: "Baixar Instalador (.exe)",
         hero_btn_portable: "Versão Portátil (Sem instalação)",
+        hero_btn_docs: "Documentação no GitHub",
+        hero_btn_donate: "Doar / Apoiar",
+        hero_btn_socials: "Redes Oficiais",
         hero_cmd_label: "Ou inicie instantaneamente pelo PowerShell (Administrador):",
         hero_copy_btn: "Copiar",
         hero_copied: "Copiado!",
@@ -461,6 +517,25 @@ const I18N_DATA = {
         faq_a5: "O identificador de hardware (HWID) utiliza um algoritmo tolerante baseado na impressão digital da placa-mãe e processador. Formatar o disco rígido ou reinstalar o Windows preserva sua ativação automaticamente.",
 
         // Footer
+        dl_btn_docs: "Ler Documentação Completa e README no GitHub",
+        dl_btn_releases: "Ver Todas as Versões e Changelog (TorkeToolkit-Suite)",
+        donate_tag: "Apoie o Desenvolvimento Independente",
+        donate_title: "Doações e Apoio ao TorkeToolkit",
+        donate_sub: "Sua contribuição ajuda a manter o TorkeToolkit 100% livre de anúncios, financiar certificados digitais e desenvolver novas ferramentas para Windows.",
+        donate_c1_title: "Doação via PayPal",
+        donate_c1_desc: "Contribuição única direta de qualquer valor para apoiar a engenharia e manutenção contínua.",
+        donate_c1_btn: "Doar com PayPal",
+        donate_c2_title: "Ko-fi / Pague um Café",
+        donate_c2_desc: "Apoie as sessões de código, correções de bugs e expansão da base de drivers com um café.",
+        donate_c2_btn: "Apoiar no Ko-fi",
+        donate_c3_title: "Estrela e Sponsor no GitHub",
+        donate_c3_desc: "Deixe uma estrela em nosso repositório oficial ou compartilhe o TorkeToolkit com gamers e técnicos.",
+        donate_c3_btn: "Dar Estrela no GitHub",
+        socials_tag: "Comunidade e Novidades",
+        socials_title: "Redes Sociais Oficiais",
+        socials_sub: "Siga nossos canais oficiais para comparativos de FPS, changelogs e tutoriais de otimização no Windows.",
+        social_coming_soon: "@TorkeToolkit · Em Breve",
+        placeholder_notice: "{0}: Link oficial disponível em breve!",
         footer_desc_html: "<strong style=\"color:#fff;\">TorkeToolkit</strong> — Suite Profissional de Otimização by <strong>RODER</strong>",
         footer_rights: "© 2026 RODER. Todos os direitos reservados. Desenvolvido com C# e .NET 10."
     }
@@ -472,10 +547,10 @@ const LANG_CONFIG = {
     pt: { flag: "🇧🇷", label: "PT" }
 };
 
-let currentLang = 'es';
+let currentLang = 'en';
 
 function setLanguage(lang) {
-    if (!I18N_DATA[lang]) lang = 'es';
+    if (!I18N_DATA[lang]) lang = 'en';
     currentLang = lang;
     const t = I18N_DATA[lang];
 
