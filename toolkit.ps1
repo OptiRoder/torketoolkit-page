@@ -4,6 +4,7 @@
 # =============================================================================
 
 $ErrorActionPreference = 'Stop'
+$ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 $destino = "$env:TEMP\TorkeToolkit"
@@ -27,6 +28,11 @@ try {
     } catch {}
 }
 
-Invoke-WebRequest -Uri $dlUrl -OutFile $archivoExe
+if (Get-Command "curl.exe" -ErrorAction SilentlyContinue) {
+    & curl.exe -fL --retry 3 --progress-bar $dlUrl -o $archivoExe
+    if ($LASTEXITCODE -ne 0) { throw "Error descargando TorkeToolkit desde $dlUrl" }
+} else {
+    Invoke-WebRequest -Uri $dlUrl -OutFile $archivoExe -UseBasicParsing
+}
 Write-Host "Iniciando TorkeToolkit..." -ForegroundColor Green
 Start-Process $archivoExe
