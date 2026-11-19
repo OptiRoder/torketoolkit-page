@@ -5,15 +5,15 @@
 **The Ultimate Windows 10 & 11 Performance, Driver Center, Battery Guard & IT Technician Suite**
 
 [![Latest Release](https://img.shields.io/badge/Release-v3.2.0-3b82f6?style=for-the-badge&logo=github)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)
-[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078d4?style=for-the-badge&logo=windows)](https://torktoolkit.com/)
-[![Runtime](https://img.shields.io/badge/.NET%2010-Native%20Self--Contained-8b5cf6?style=for-the-badge&logo=dotnet)](https://torktoolkit.com/)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078d4?style=for-the-badge&logo=windows)](https://torketoolkit.com/)
+[![Runtime](https://img.shields.io/badge/.NET%2010-Native%20Self--Contained-8b5cf6?style=for-the-badge&logo=dotnet)](https://torketoolkit.com/)
 [![Privacy](https://img.shields.io/badge/Telemetry-Zero%20(100%25%20Offline)-10b981?style=for-the-badge)](https://github.com/OptiRoder/TorkeToolkit-Suite)
 
-🌐 **[Official Website](https://torktoolkit.com/)** • 📥 **[Download Latest Release (v3.2.0)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[Español (README_es.md)](./README_es.md)** • 📋 **[Changelog](./CHANGELOG.md)**
+🌐 **[Official Website](https://torketoolkit.com/)** • 📥 **[Download Latest Release (v3.2.0)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[Español (README_es.md)](./README_es.md)** • 📋 **[Changelog](./CHANGELOG.md)**
 
 ---
 
-![TorkeToolkit System Optimization](https://torktoolkit.com/source/shot-optimization-2x.webp)
+![TorkeToolkit System Optimization](https://torketoolkit.com/source/shot-optimization-2x.webp)
 
 </div>
 
@@ -35,7 +35,7 @@
 Run TorkeToolkit Portable directly from an elevated **PowerShell** window:
 
 ```powershell
-irm https://torktoolkit.com/toolkit.ps1 | iex
+irm https://torketoolkit.com/toolkit.ps1 | iex
 ```
 
 ---
@@ -105,7 +105,7 @@ Performs an automated 12-point health audit in seconds and queues 1-click repair
 
 If **TorkeToolkit** helps boost your PC performance or saves you hours in your IT repair shop, consider supporting independent development:
 
-- 💖 **[Support & Donate via Official Website](https://torktoolkit.com/#donaciones)**
+- 💖 **[Support & Donate via Official Website](https://torketoolkit.com/#donaciones)**
 - ⭐ **Star this repository** on GitHub to help more gamers and technicians discover the project!
 
 ---

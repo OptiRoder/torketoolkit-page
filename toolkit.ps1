@@ -1,6 +1,6 @@
 ﻿# =============================================================================
 #  TorkeToolkit - Instalador / Lanzador Rápido de PowerShell
-#  irm https://torktoolkit.com/toolkit.ps1 | iex
+#  irm https://torketoolkit.com/toolkit.ps1 | iex
 # =============================================================================
 
 $ErrorActionPreference = 'Stop'
