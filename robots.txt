@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://optiroder.github.io/sitemap.xml
-
+Sitemap: https://torketoolkit.com/sitemap.xml
