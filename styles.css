@@ -1294,6 +1294,17 @@ body {
     background: rgba(139, 92, 246, 0.1);
 }
 
+.btn-sub-action.bug-report {
+    color: #fbbf24;
+    border-color: rgba(245, 158, 11, 0.35);
+    background: rgba(245, 158, 11, 0.1);
+}
+
+.btn-sub-action.bug-report:hover {
+    border-color: rgba(245, 158, 11, 0.65);
+    box-shadow: 0 0 20px rgba(245, 158, 11, 0.22);
+}
+
 .dl-repo-bar {
     display: flex;
     align-items: center;
