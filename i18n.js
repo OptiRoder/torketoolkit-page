@@ -42,12 +42,12 @@ const I18N_DATA = {
         showcase_tag: "Explora la Interfaz",
         showcase_title: "Diseñado para Máximo Control y Claridad",
         showcase_sub: "Una estética moderna en modo oscuro desarrollada para gamers exigentes y técnicos profesionales de taller.",
-        tab_opt: "⚡ Optimización",
-        tab_gaming: "🎮 Gaming Pro",
-        tab_ram: "🧠 Optimización RAM",
-        tab_apps: "📦 Catálogo de Software",
-        tab_monitor: "📊 Monitor en Vivo",
-        tab_tech: "🛠️ Taller Técnico (T3)",
+        tab_opt: "Optimización",
+        tab_gaming: "Gaming Pro",
+        tab_ram: "Optimización RAM",
+        tab_apps: "Catálogo de Software",
+        tab_monitor: "Monitor en Vivo",
+        tab_tech: "Taller Técnico (T3)",
         
         slide_0_title: "TorkeToolkit — Módulo de Optimización de Sistema",
         slide_0_caption: "Perfiles calibrados de latencia: Mínima, Segura, Recomendada, Gaming (FPS + Latencia) y Extrema con reversión en 1 clic.",
@@ -222,12 +222,12 @@ const I18N_DATA = {
         showcase_tag: "Explore the Interface",
         showcase_title: "Engineered for Ultimate Control & Clarity",
         showcase_sub: "A sleek modern dark aesthetic crafted for demanding gamers and professional IT technicians.",
-        tab_opt: "⚡ Optimization",
-        tab_gaming: "🎮 Gaming Pro",
-        tab_ram: "🧠 RAM Optimizer",
-        tab_apps: "📦 Software Catalog",
-        tab_monitor: "📊 Live Monitor",
-        tab_tech: "🛠️ IT Workshop (T3)",
+        tab_opt: "Optimization",
+        tab_gaming: "Gaming Pro",
+        tab_ram: "RAM Optimizer",
+        tab_apps: "Software Catalog",
+        tab_monitor: "Live Monitor",
+        tab_tech: "IT Workshop (T3)",
         
         slide_0_title: "TorkeToolkit — System Optimization Module",
         slide_0_caption: "Fine-calibrated latency profiles: Minimal, Safe, Recommended, Gaming (FPS + Latency), and Extreme with 1-Click Rollback.",
@@ -402,12 +402,12 @@ const I18N_DATA = {
         showcase_tag: "Explore a Interface",
         showcase_title: "Projetado para Máximo Controle e Clareza",
         showcase_sub: "Estética moderna em modo escuro desenvolvida para gamers exigentes e técnicos profissionais de suporte.",
-        tab_opt: "⚡ Otimização",
-        tab_gaming: "🎮 Gaming Pro",
-        tab_ram: "🧠 Otimização RAM",
-        tab_apps: "📦 Catálogo de Softwares",
-        tab_monitor: "📊 Monitor em Tempo Real",
-        tab_tech: "🛠️ Oficina Técnica (T3)",
+        tab_opt: "Otimização",
+        tab_gaming: "Gaming Pro",
+        tab_ram: "Otimização RAM",
+        tab_apps: "Catálogo de Softwares",
+        tab_monitor: "Monitor em Tempo Real",
+        tab_tech: "Oficina Técnica (T3)",
         
         slide_0_title: "TorkeToolkit — Módulo de Otimização do Sistema",
         slide_0_caption: "Perfis calibrados de latência: Minimal, Safe, Recomendada, Gaming (FPS + Latência) e Extrema com Rollback em 1 Clique.",
@@ -545,9 +545,9 @@ const I18N_DATA = {
 };
 
 const LANG_CONFIG = {
-    es: { flag: "🇪🇸", label: "ES" },
-    en: { flag: "🇺🇸", label: "EN" },
-    pt: { flag: "🇧🇷", label: "PT" }
+    es: { label: "ES" },
+    en: { label: "EN" },
+    pt: { label: "PT" }
 };
 
 let currentLang = 'en';
@@ -604,10 +604,8 @@ function setLanguage(lang) {
     });
 
     // Update Language UI Selector
-    const flagEl = document.getElementById('lang-current-flag');
     const labelEl = document.getElementById('lang-current-label');
-    if (flagEl && labelEl && LANG_CONFIG[lang]) {
-        flagEl.textContent = LANG_CONFIG[lang].flag;
+    if (labelEl && LANG_CONFIG[lang]) {
         labelEl.textContent = LANG_CONFIG[lang].label;
     }
 

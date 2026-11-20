@@ -162,30 +162,27 @@
                 <!-- Selector Multilingüe: ES, EN, PT -->
                 <div class="lang-selector-wrapper">
                     <button class="lang-selector-btn" id="lang-btn" onclick="toggleLangMenu(event)" aria-label="Change language">
-                        <span class="lang-flag" id="lang-current-flag">🇺🇸</span>
+                        <svg class="lang-globe-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                         <span class="lang-label" id="lang-current-label">EN</span>
                         <svg class="lang-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
                     </button>
                     <div class="lang-dropdown" id="lang-dropdown">
                         <button class="lang-option active" data-lang="en" onclick="changeLanguage('en')">
-                            <span>🇺🇸</span>
+                            <span class="lang-code-pill">EN</span>
                             <div class="lang-option-text">
                                 <strong>English</strong>
-                                <small>EN</small>
                             </div>
                         </button>
                         <button class="lang-option" data-lang="es" onclick="changeLanguage('es')">
-                            <span>🇪🇸</span>
+                            <span class="lang-code-pill">ES</span>
                             <div class="lang-option-text">
                                 <strong>Español</strong>
-                                <small>ES</small>
                             </div>
                         </button>
                         <button class="lang-option" data-lang="pt" onclick="changeLanguage('pt')">
-                            <span>🇧🇷</span>
+                            <span class="lang-code-pill">PT</span>
                             <div class="lang-option-text">
                                 <strong>Português</strong>
-                                <small>PT</small>
                             </div>
                         </button>
                     </div>
@@ -323,22 +320,28 @@
             <!-- Navigation Tabs -->
             <div class="showcase-tabs">
                 <button class="tab-btn active" onclick="switchSlide(0, this)">
-                    <span data-i18n="tab_opt">⚡ Optimización</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    <span data-i18n="tab_opt">Optimización</span>
                 </button>
                 <button class="tab-btn" onclick="switchSlide(1, this)">
-                    <span data-i18n="tab_gaming">🎮 Gaming Pro</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="11" x2="10" y2="11"/><line x1="8" y1="9" x2="8" y2="13"/><line x1="15" y1="12" x2="15.01" y2="12"/><line x1="18" y1="10" x2="18.01" y2="10"/><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"/></svg>
+                    <span data-i18n="tab_gaming">Gaming Pro</span>
                 </button>
                 <button class="tab-btn" onclick="switchSlide(2, this)">
-                    <span data-i18n="tab_ram">🧠 Optimización RAM</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="16" height="10" rx="2"/><path d="M6 19v-3"/><path d="M10 19v-3"/><path d="M14 19v-3"/><path d="M18 19v-3"/><path d="M8 12v-2"/><path d="M12 12v-2"/><path d="M16 12v-2"/></svg>
+                    <span data-i18n="tab_ram">Optimización RAM</span>
                 </button>
                 <button class="tab-btn" onclick="switchSlide(3, this)">
-                    <span data-i18n="tab_apps">📦 Catálogo de Software</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    <span data-i18n="tab_apps">Catálogo de Software</span>
                 </button>
                 <button class="tab-btn" onclick="switchSlide(4, this)">
-                    <span data-i18n="tab_monitor">📊 Monitor en Vivo</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                    <span data-i18n="tab_monitor">Monitor en Vivo</span>
                 </button>
                 <button class="tab-btn" onclick="switchSlide(5, this)">
-                    <span data-i18n="tab_tech">🛠️ Taller Técnico (T3)</span>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    <span data-i18n="tab_tech">Taller Técnico (T3)</span>
                 </button>
             </div>
 
@@ -421,37 +424,49 @@
 
             <div class="features-grid">
                 <div class="feature-card">
-                    <div class="feature-icon">🚀</div>
+                    <div class="feature-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    </div>
                     <h3 data-i18n="feat_1_title">Optimización de Latencia y BCD</h3>
                     <p data-i18n="feat_1_desc">Reduce tiempos de respuesta en juegos y aplicaciones pesadas. Ajusta el registro MMCSS, prioridades de CPU, paginación de memoria RAM y aceleración de arranque en Windows.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon purple">📦</div>
+                    <div class="feature-icon cyan">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                    </div>
                     <h3 data-i18n="feat_2_title">Instalador de Software Inteligente</h3>
                     <p data-i18n="feat_2_desc">Descarga directa de los navegadores, plataformas de juegos y herramientas más populares. Sin paquetes de telemetría adicionales, con cola multihilo y barra de progreso real.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon emerald">🛡️</div>
+                    <div class="feature-icon emerald">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                    </div>
                     <h3 data-i18n="feat_3_title">Snapshots y Reversibilidad Total</h3>
                     <p data-i18n="feat_3_desc">Crea copias de seguridad del registro, puntos de restauración del sistema y snapshots de configuración antes de cualquier cambio. Reviértelo todo en 1 clic ante cualquier imprevisto.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon amber">📄</div>
+                    <div class="feature-icon amber">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                    </div>
                     <h3 data-i18n="feat_4_title">Informes Técnicos en PDF</h3>
                     <p data-i18n="feat_4_desc">Ideal para talleres y técnicos: genera reportes vectoriales certificados en PDF con especificaciones del equipo, diagnóstico S.M.A.R.T. de discos y estado de mantenimiento para tus clientes.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon">🛠️</div>
+                    <div class="feature-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    </div>
                     <h3 data-i18n="feat_5_title">Modo USB Portable Técnico</h3>
                     <p data-i18n="feat_5_desc">Lleva la suite completa en tu pendrive USB. Ejecútala en tantas computadoras de clientes como necesites sin necesidad de instalar o dejar residuos en el sistema.</p>
                 </div>
 
                 <div class="feature-card">
-                    <div class="feature-icon emerald">🔒</div>
+                    <div class="feature-icon emerald">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
                     <h3 data-i18n="feat_6_title">Cero Telemetría y Criptografía Ed25519</h3>
                     <p data-i18n="feat_6_desc">Tu privacidad es sagrada. La aplicación no recopila datos de navegación, contraseñas ni archivos. El sistema de licencias funciona offline mediante firmas asimétricas de alta seguridad.</p>
                 </div>
@@ -475,7 +490,9 @@
                     <div class="dl-badge-recommend" data-i18n="dl_c1_badge">Recomendado</div>
                     <div>
                         <div class="dl-header">
-                            <div class="dl-icon-badge">💾</div>
+                            <div class="dl-icon-badge">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                            </div>
                             <div>
                                 <h3 data-i18n="dl_c1_title">Instalador Oficial</h3>
                                 <span class="dl-tag" data-i18n="dl_c1_sub">Setup Asistido · .EXE (~60 MB)</span>
@@ -517,7 +534,9 @@
                 <div class="dl-card">
                     <div>
                         <div class="dl-header">
-                            <div class="dl-icon-badge">⚡</div>
+                            <div class="dl-icon-badge">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                            </div>
                             <div>
                                 <h3 data-i18n="dl_c2_title">Edición Portable</h3>
                                 <span class="dl-tag" data-i18n="dl_c2_sub">Sin Instalación · Standalone / ZIP (~60 MB)</span>
@@ -807,21 +826,27 @@
             <!-- TODO: Reemplaza los href="#" de abajo con tus enlaces reales de PayPal, Ko-fi, etc. -->
             <div class="donate-grid">
                 <div class="donate-card">
-                    <div class="donate-icon paypal">💳</div>
+                    <div class="donate-icon paypal">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                    </div>
                     <h3 data-i18n="donate_c1_title">PayPal Donation</h3>
                     <p data-i18n="donate_c1_desc">Direct one-time contribution of any amount to support ongoing engineering and maintenance.</p>
                     <a href="#donaciones" onclick="return handlePlaceholderLink(event, 'PayPal')" class="btn-donate paypal-btn" data-i18n="donate_c1_btn">Donate with PayPal</a>
                 </div>
 
                 <div class="donate-card featured-donate">
-                    <div class="donate-icon kofi">☕</div>
+                    <div class="donate-icon kofi">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                    </div>
                     <h3 data-i18n="donate_c2_title">Ko-fi / Buy Me a Coffee</h3>
                     <p data-i18n="donate_c2_desc">Fuel late-night coding sessions, bug fixes, and driver database expansions with a quick coffee.</p>
                     <a href="#donaciones" onclick="return handlePlaceholderLink(event, 'Ko-fi / Buy Me a Coffee')" class="btn-donate kofi-btn" data-i18n="donate_c2_btn">Support on Ko-fi</a>
                 </div>
 
                 <div class="donate-card">
-                    <div class="donate-icon github">⭐</div>
+                    <div class="donate-icon github">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
                     <h3 data-i18n="donate_c3_title">GitHub Star &amp; Sponsor</h3>
                     <p data-i18n="donate_c3_desc">Leave a star on our official repository or share TorkeToolkit with gamers and IT technicians.</p>
                     <a href="https://github.com/OptiRoder/TorkeToolkit-Suite" target="_blank" rel="noopener" class="btn-donate github-btn" data-i18n="donate_c3_btn">Star on GitHub</a>
@@ -844,7 +869,9 @@
             <!-- PLACEHOLDER REDES SOCIALES: Reemplaza href="#redes" y quita el onclick cuando agregues tus links -->
             <div class="socials-grid">
                 <a href="#redes" onclick="return handlePlaceholderLink(event, 'YouTube')" class="social-pill youtube">
-                    <span class="social-icon">▶️</span>
+                    <span class="social-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+                    </span>
                     <div>
                         <strong>YouTube</strong>
                         <small data-i18n="social_coming_soon">@TorkeToolkit · Coming Soon</small>
@@ -852,7 +879,9 @@
                 </a>
 
                 <a href="#redes" onclick="return handlePlaceholderLink(event, 'TikTok')" class="social-pill tiktok">
-                    <span class="social-icon">🎵</span>
+                    <span class="social-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+                    </span>
                     <div>
                         <strong>TikTok / Shorts</strong>
                         <small data-i18n="social_coming_soon">@TorkeToolkit · Coming Soon</small>
@@ -860,7 +889,9 @@
                 </a>
 
                 <a href="#redes" onclick="return handlePlaceholderLink(event, 'X / Twitter')" class="social-pill twitter">
-                    <span class="social-icon">𝕏</span>
+                    <span class="social-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733 -16z"/><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"/></svg>
+                    </span>
                     <div>
                         <strong>X (Twitter)</strong>
                         <small data-i18n="social_coming_soon">@TorkeToolkit · Coming Soon</small>
@@ -868,7 +899,9 @@
                 </a>
 
                 <a href="#redes" onclick="return handlePlaceholderLink(event, 'Discord')" class="social-pill discord">
-                    <span class="social-icon">💬</span>
+                    <span class="social-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </span>
                     <div>
                         <strong>Discord</strong>
                         <small data-i18n="social_coming_soon">Community · Coming Soon</small>
@@ -876,7 +909,9 @@
                 </a>
 
                 <a href="https://github.com/OptiRoder/TorkeToolkit-Suite" target="_blank" rel="noopener" class="social-pill github">
-                    <span class="social-icon">🐙</span>
+                    <span class="social-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                    </span>
                     <div>
                         <strong>GitHub</strong>
                         <small>OptiRoder/TorkeToolkit-Suite</small>
@@ -884,7 +919,9 @@
                 </a>
 
                 <a href="mailto:optiroder@gmail.com?subject=TorkeToolkit%20v3.2.1%20-%20Bug%20Report" class="social-pill bug-mail">
-                    <span class="social-icon">🐞</span>
+                    <span class="social-icon bug">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2l1.88 1.88"/><path d="M14.12 3.88L16 2"/><path d="M9 7.13v-1a3.003 3.003 0 1 1 6 0v1"/><path d="M12 20c-3.3 0-6-2.7-6-6v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v3c0 3.3-2.7 6-6 6"/><path d="M12 20v-9"/><path d="M6.53 9C4.6 8.8 3 7.1 3 5"/><path d="M6 13H2"/><path d="M3 21c0-2.1 1.7-3.9 3.8-4"/><path d="M20.97 5c0 2.1-1.6 3.8-3.5 4"/><path d="M22 13h-4"/><path d="M17.2 17c2.1.1 3.8 1.9 3.8 4"/></svg>
+                    </span>
                     <div>
                         <strong data-i18n="hero_btn_bug">Report a Bug</strong>
                         <small>optiroder@gmail.com</small>
