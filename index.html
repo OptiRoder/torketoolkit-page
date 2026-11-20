@@ -126,8 +126,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="preload" as="image" href="source/shot-optimization.webp?v=320" imagesrcset="source/shot-optimization.webp?v=320 1x, source/shot-optimization-2x.webp?v=320 2x">
-    <link rel="stylesheet" href="styles.css?v=320">
+    <link rel="preload" as="image" href="source/shot-optimization.webp?v=321" imagesrcset="source/shot-optimization.webp?v=321 1x, source/shot-optimization-2x.webp?v=321 2x">
+    <link rel="stylesheet" href="styles.css?v=321">
 </head>
 
 <body>
@@ -343,7 +343,7 @@
             </div>
 
             <!-- Mockup Window Frame -->
-            <div class="mockup-window">
+            <div class="mockup-window" id="showcase-mockup">
                 <div class="mockup-header">
                     <div class="window-dots">
                         <span class="dot dot-red"></span>
@@ -351,37 +351,60 @@
                         <span class="dot dot-green"></span>
                     </div>
                     <div class="mockup-title" id="mockup-header-title">TorkeToolkit — Módulo de Optimización de Sistema</div>
+                    <div class="carousel-counter" id="carousel-counter">1 / 6</div>
                 </div>
 
-                <div class="mockup-body">
+                <!-- Barra de progreso de auto-avance -->
+                <div class="carousel-progress-track">
+                    <div class="carousel-progress-fill" id="carousel-progress-fill"></div>
+                </div>
+
+                <div class="mockup-body" id="mockup-body">
+                    <button class="carousel-nav-btn prev" onclick="stepSlide(-1)" aria-label="Anterior">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+                    </button>
+                    <button class="carousel-nav-btn next" onclick="stepSlide(1)" aria-label="Siguiente">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+                    </button>
+
                     <div class="mockup-slide active" data-title="TorkeToolkit — Módulo de Optimización de Sistema" data-caption="Perfiles calibrados de latencia: Mínima, Segura, Recomendada, Gaming (FPS + Latencia) y Extrema con reversión en 1 clic.">
-                        <img src="source/shot-optimization.webp?v=310" srcset="source/shot-optimization.webp?v=310 1x, source/shot-optimization-2x.webp?v=310 2x" width="1220" height="760" decoding="sync" fetchpriority="high" onclick="openLightbox('source/shot-optimization-2x.webp?v=310', this.alt)" alt="Módulo de Optimización TorkeToolkit">
+                        <img src="source/shot-optimization.webp?v=321" srcset="source/shot-optimization.webp?v=321 1x, source/shot-optimization-2x.webp?v=321 2x" width="1220" height="760" decoding="sync" fetchpriority="high" onclick="openLightbox('source/shot-optimization-2x.webp?v=321', this.alt)" alt="Módulo de Optimización TorkeToolkit">
                     </div>
 
                     <div class="mockup-slide" data-title="TorkeToolkit — Gaming Pro &amp; Game Booster" data-caption="Audita tu Gaming Readiness Score (0-100%), aplica ajustes de baja latencia DPC/MSI y activa el Modo Torneo en vivo.">
-                        <img src="source/shot-gaming.webp?v=310" srcset="source/shot-gaming.webp?v=310 1x, source/shot-gaming-2x.webp?v=310 2x" width="1220" height="760" decoding="async" onclick="openLightbox('source/shot-gaming-2x.webp?v=310', this.alt)" alt="Gaming Pro y Game Booster en Vivo">
+                        <img src="source/shot-gaming.webp?v=321" srcset="source/shot-gaming.webp?v=321 1x, source/shot-gaming-2x.webp?v=321 2x" width="1220" height="760" decoding="async" onclick="openLightbox('source/shot-gaming-2x.webp?v=321', this.alt)" alt="Gaming Pro y Game Booster en Vivo">
                     </div>
 
                     <div class="mockup-slide" data-title="TorkeToolkit — MemEngine Pro &amp; Gestión de RAM" data-caption="Liberación inteligente sin tirones en juegos, Piloto Automático de RAM y optimización automática adaptada a tu hardware.">
-                        <img src="source/shot-ram.webp?v=310" srcset="source/shot-ram.webp?v=310 1x, source/shot-ram-2x.webp?v=310 2x" width="1220" height="760" decoding="async" onclick="openLightbox('source/shot-ram-2x.webp?v=310', this.alt)" alt="Torke MemEngine Pro y Optimización RAM">
+                        <img src="source/shot-ram.webp?v=321" srcset="source/shot-ram.webp?v=321 1x, source/shot-ram-2x.webp?v=321 2x" width="1220" height="760" decoding="async" onclick="openLightbox('source/shot-ram-2x.webp?v=321', this.alt)" alt="Torke MemEngine Pro y Optimización RAM">
                     </div>
 
                     <div class="mockup-slide" data-title="TorkeToolkit Installer — Gestor Multihilo de Aplicaciones" data-caption="Instala navegadores, launchers de juegos y herramientas esenciales sin instaladores basura y con barra de descarga en vivo.">
-                        <img src="source/shot-installer.webp?v=310" srcset="source/shot-installer.webp?v=310 1x, source/shot-installer-2x.webp?v=310 2x" width="1220" height="749" decoding="async" onclick="openLightbox('source/shot-installer-2x.webp?v=310', this.alt)" alt="Instalador y Catálogo de Software">
+                        <img src="source/shot-installer.webp?v=321" srcset="source/shot-installer.webp?v=321 1x, source/shot-installer-2x.webp?v=321 2x" width="1220" height="760" decoding="async" onclick="openLightbox('source/shot-installer-2x.webp?v=321', this.alt)" alt="Instalador y Catálogo de Software">
                     </div>
 
                     <div class="mockup-slide" data-title="TorkeToolkit — Monitor de Rendimiento y Recursos" data-caption="Métricas en vivo actualizadas cada 2 segundos: uso de CPU, memoria RAM, almacenamiento y top de procesos.">
-                        <img src="source/shot-monitor.webp?v=310" srcset="source/shot-monitor.webp?v=310 1x, source/shot-monitor-2x.webp?v=310 2x" width="1220" height="760" decoding="async" onclick="openLightbox('source/shot-monitor-2x.webp?v=310', this.alt)" alt="Monitor de Recursos y Hardware">
+                        <img src="source/shot-monitor.webp?v=321" srcset="source/shot-monitor.webp?v=321 1x, source/shot-monitor-2x.webp?v=321 2x" width="1220" height="760" decoding="async" onclick="openLightbox('source/shot-monitor-2x.webp?v=321', this.alt)" alt="Monitor de Recursos y Hardware">
                     </div>
 
                     <div class="mockup-slide" data-title="TorkeToolkit — Taller Técnico y Reportes PDF (Tier 3)" data-caption="Asistente 1-Clic para PC recién formateada, auditoría comparativa Antes vs Después e informes técnicos certificados en PDF.">
-                        <img src="source/shot-technician.webp?v=310" srcset="source/shot-technician.webp?v=310 1x, source/shot-technician-2x.webp?v=310 2x" width="1220" height="760" decoding="async" onclick="openLightbox('source/shot-technician-2x.webp?v=310', this.alt)" alt="Taller Técnico Profesional Tier 3">
+                        <img src="source/shot-technician.webp?v=321" srcset="source/shot-technician.webp?v=321 1x, source/shot-technician-2x.webp?v=321 2x" width="1220" height="760" decoding="async" onclick="openLightbox('source/shot-technician-2x.webp?v=321', this.alt)" alt="Taller Técnico Profesional Tier 3">
                     </div>
                 </div>
 
                 <div class="mockup-caption">
                     <span id="mockup-caption-text">Perfiles calibrados de latencia: Mínima, Segura, Recomendada, Gaming (FPS + Latencia) y Extrema con reversión en 1 clic.</span>
-                    <span style="font-family: var(--font-mono); font-size: 0.75rem; color: #60a5fa;">TorkeToolkit Suite v3.2.1</span>
+                    <div class="mockup-caption-meta">
+                        <div class="carousel-dots" id="carousel-dots">
+                            <button class="carousel-dot active" onclick="goToSlide(0)" aria-label="Slide 1"></button>
+                            <button class="carousel-dot" onclick="goToSlide(1)" aria-label="Slide 2"></button>
+                            <button class="carousel-dot" onclick="goToSlide(2)" aria-label="Slide 3"></button>
+                            <button class="carousel-dot" onclick="goToSlide(3)" aria-label="Slide 4"></button>
+                            <button class="carousel-dot" onclick="goToSlide(4)" aria-label="Slide 5"></button>
+                            <button class="carousel-dot" onclick="goToSlide(5)" aria-label="Slide 6"></button>
+                        </div>
+                        <span class="mockup-suite-tag">TorkeToolkit Suite v3.2.1</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -905,10 +928,10 @@
     <script type="text/javascript" src="https://payhip.com/payhip.js" async></script>
 
     <!-- Multi-Language i18n Engine (ES, EN, PT) -->
-    <script src="i18n.js?v=320"></script>
+    <script src="i18n.js?v=321"></script>
 
     <!-- ============================================================
-         SCRIPTS: TABS, FAQ, COPY & GITHUB RELEASES
+         SCRIPTS: TABS, AUTO-CAROUSEL, FAQ, COPY & GITHUB RELEASES
          ============================================================ -->
     <script>
         // Copiar comando de PowerShell
@@ -929,33 +952,129 @@
             });
         }
 
-        // Showcase Tabs
-        function switchSlide(index, button) {
+        // Showcase Tabs + Auto-Advance Carousel (every 5 seconds)
+        const SLIDE_INTERVAL_MS = 5000;
+        let currentSlideIndex = 0;
+        let slideTimer = null;
+        let isCarouselPaused = false;
+        let slideStartTime = Date.now();
+        let progressRaf = null;
+
+        function applySlide(index) {
             const buttons = document.querySelectorAll('.tab-btn');
             const slides = document.querySelectorAll('.mockup-slide');
+            const dots = document.querySelectorAll('.carousel-dot');
             const titleEl = document.getElementById('mockup-header-title');
             const captionEl = document.getElementById('mockup-caption-text');
+            const counterEl = document.getElementById('carousel-counter');
 
-            buttons.forEach(b => b.classList.remove('active'));
-            slides.forEach(s => s.classList.remove('active'));
+            if (!slides.length) return;
+            currentSlideIndex = ((index % slides.length) + slides.length) % slides.length;
 
-            button.classList.add('active');
-            if (slides[index]) {
-                slides[index].classList.add('active');
-                if (titleEl && slides[index].dataset.title) {
-                    titleEl.textContent = slides[index].dataset.title;
+            buttons.forEach((b, i) => b.classList.toggle('active', i === currentSlideIndex));
+            slides.forEach((s, i) => s.classList.toggle('active', i === currentSlideIndex));
+            dots.forEach((d, i) => d.classList.toggle('active', i === currentSlideIndex));
+
+            const activeSlide = slides[currentSlideIndex];
+            if (activeSlide) {
+                if (titleEl && activeSlide.dataset.title) {
+                    titleEl.textContent = activeSlide.dataset.title;
                 }
-                if (captionEl && slides[index].dataset.caption) {
-                    captionEl.textContent = slides[index].dataset.caption;
+                if (captionEl && activeSlide.dataset.caption) {
+                    captionEl.textContent = activeSlide.dataset.caption;
                 }
             }
+            if (counterEl) {
+                counterEl.textContent = `${currentSlideIndex + 1} / ${slides.length}`;
+            }
         }
+
+        function updateProgressBar() {
+            const fillEl = document.getElementById('carousel-progress-fill');
+            if (fillEl) {
+                if (isCarouselPaused) {
+                    slideStartTime = Date.now();
+                } else {
+                    const elapsed = Date.now() - slideStartTime;
+                    const pct = Math.min(100, (elapsed / SLIDE_INTERVAL_MS) * 100);
+                    fillEl.style.width = `${pct}%`;
+                }
+            }
+            progressRaf = requestAnimationFrame(updateProgressBar);
+        }
+
+        function resetAutoSlideTimer() {
+            if (slideTimer) clearInterval(slideTimer);
+            slideStartTime = Date.now();
+            const fillEl = document.getElementById('carousel-progress-fill');
+            if (fillEl) fillEl.style.width = '0%';
+
+            slideTimer = setInterval(() => {
+                if (!isCarouselPaused) {
+                    applySlide(currentSlideIndex + 1);
+                    slideStartTime = Date.now();
+                }
+            }, SLIDE_INTERVAL_MS);
+        }
+
+        function switchSlide(index, button) {
+            applySlide(index);
+            resetAutoSlideTimer();
+        }
+
+        function goToSlide(index) {
+            applySlide(index);
+            resetAutoSlideTimer();
+        }
+
+        function stepSlide(delta) {
+            applySlide(currentSlideIndex + delta);
+            resetAutoSlideTimer();
+        }
+
+        // Pause on hover & support touch swipe on mobile
+        document.addEventListener('DOMContentLoaded', () => {
+            const mockup = document.getElementById('showcase-mockup');
+            const body = document.getElementById('mockup-body');
+            if (mockup) {
+                mockup.addEventListener('mouseenter', () => { isCarouselPaused = true; });
+                mockup.addEventListener('mouseleave', () => {
+                    const lb = document.getElementById('img-lightbox');
+                    if (!lb || !lb.classList.contains('open')) {
+                        isCarouselPaused = false;
+                        slideStartTime = Date.now();
+                    }
+                });
+            }
+            if (body) {
+                let touchStartX = 0;
+                let touchStartY = 0;
+                body.addEventListener('touchstart', e => {
+                    if (e.touches && e.touches.length === 1) {
+                        touchStartX = e.touches[0].clientX;
+                        touchStartY = e.touches[0].clientY;
+                    }
+                }, { passive: true });
+                body.addEventListener('touchend', e => {
+                    if (e.changedTouches && e.changedTouches.length === 1) {
+                        const dx = e.changedTouches[0].clientX - touchStartX;
+                        const dy = e.changedTouches[0].clientY - touchStartY;
+                        if (Math.abs(dx) > 42 && Math.abs(dx) > Math.abs(dy) * 1.4) {
+                            stepSlide(dx < 0 ? 1 : -1);
+                        }
+                    }
+                }, { passive: true });
+            }
+            resetAutoSlideTimer();
+            updateProgressBar();
+        });
 
         // Lightbox
         function openLightbox(src, alt) {
             const lb = document.getElementById('img-lightbox');
             const img = document.getElementById('img-lightbox-target');
             if (lb && img) {
+                isCarouselPaused = true;
                 img.src = src;
                 img.alt = alt || '';
                 lb.classList.add('open');
@@ -964,6 +1083,8 @@
         function closeLightbox() {
             const lb = document.getElementById('img-lightbox');
             if (lb) lb.classList.remove('open');
+            isCarouselPaused = false;
+            slideStartTime = Date.now();
         }
         document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
 
