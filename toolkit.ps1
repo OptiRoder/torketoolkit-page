@@ -15,7 +15,7 @@ Write-Host "=========================================================" -Foregrou
 Write-Host "   TorkeToolkit - Descargando última edición portable..." -ForegroundColor Cyan
 Write-Host "=========================================================" -ForegroundColor Cyan
 
-$dlUrl = "https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Portable-v3.3.0.exe"
+$dlUrl = "https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Portable-v3.3.1.exe"
 try {
     $rel = Invoke-RestMethod -Uri "https://api.github.com/repos/OptiRoder/TorkeToolkit-Suite/releases/latest" -Headers @{ "User-Agent" = "TorkeToolkit-Bootstrap" }
     $asset = $rel.assets | Where-Object { $_.name -match 'portable.*\.exe$' } | Select-Object -First 1

@@ -1,15 +1,15 @@
 <div align="center">
 
-# ⚡ TorkeToolkit Suite `v3.3.0`
+# ⚡ TorkeToolkit Suite `v3.3.1`
 
 **The Ultimate Windows 10 & 11 Performance, Driver Center, Battery Guard & IT Technician Suite**
 
-[![Latest Release](https://img.shields.io/badge/Release-v3.3.0-3b82f6?style=for-the-badge&logo=github)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)
+[![Latest Release](https://img.shields.io/badge/Release-v3.3.1-3b82f6?style=for-the-badge&logo=github)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078d4?style=for-the-badge&logo=windows)](https://torketoolkit.com/)
 [![Runtime](https://img.shields.io/badge/.NET%2010-Native%20Self--Contained-8b5cf6?style=for-the-badge&logo=dotnet)](https://torketoolkit.com/)
 [![Privacy](https://img.shields.io/badge/Telemetry-Zero%20(100%25%20Offline)-10b981?style=for-the-badge)](https://github.com/OptiRoder/TorkeToolkit-Suite)
 
-🌐 **[Official Website](https://torketoolkit.com/)** • 📥 **[Download Latest Release (v3.3.0)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[Español (README_es.md)](./README_es.md)** • 📋 **[Changelog](./CHANGELOG.md)**
+🌐 **[Official Website](https://torketoolkit.com/)** • 📥 **[Download Latest Release (v3.3.1)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[Español (README_es.md)](./README_es.md)** • 📋 **[Changelog](./CHANGELOG.md)**
 
 ---
 
@@ -23,12 +23,12 @@
 
 ---
 
-## 📥 Official Downloads (`v3.3.0`)
+## 📥 Official Downloads (`v3.3.1`)
 
 | Edition | Format | Size | Best For | Direct Link |
 | :--- | :--- | :--- | :--- | :--- |
-| **Official Installer (Recommended)** | Guided `.EXE` Setup | ~60 MB | Personal PCs & Gaming Rigs (Desktop/Start Menu shortcuts + clean Control Panel uninstaller) | [**Download Setup v3.3.0**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Setup-v3.3.0.exe) |
-| **Portable Technician Edition** | Standalone `.EXE` | ~65 MB | USB Flash Drives, IT Technicians & On-Site Support (Zero installation, zero leftover traces) | [**Download Portable v3.3.0**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Portable-v3.3.0.exe) |
+| **Official Installer (Recommended)** | Guided `.EXE` Setup | ~60 MB | Personal PCs & Gaming Rigs (Desktop/Start Menu shortcuts + clean Control Panel uninstaller) | [**Download Setup v3.3.1**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Setup-v3.3.1.exe) |
+| **Portable Technician Edition** | Standalone `.EXE` | ~65 MB | USB Flash Drives, IT Technicians & On-Site Support (Zero installation, zero leftover traces) | [**Download Portable v3.3.1**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Portable-v3.3.1.exe) |
 
 ### ⚡ Instant PowerShell Launch (Administrator)
 
