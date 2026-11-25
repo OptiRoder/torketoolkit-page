@@ -1,15 +1,15 @@
 <div align="center">
 
-# ⚡ TorkeToolkit Suite `v3.3.1`
+# ⚡ TorkeToolkit Suite `v3.3.2`
 
 **La Suite Definitiva de Rendimiento, Centro de Drivers, Battery Guard y Taller Técnico para Windows 10 y 11**
 
-[![Última Versión](https://img.shields.io/badge/Release-v3.3.1-3b82f6?style=for-the-badge&logo=github)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)
+[![Última Versión](https://img.shields.io/badge/Release-v3.3.2-3b82f6?style=for-the-badge&logo=github)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)
 [![Plataforma](https://img.shields.io/badge/Plataforma-Windows%2010%20%7C%2011%20(x64)-0078d4?style=for-the-badge&logo=windows)](https://torketoolkit.com/)
 [![Runtime](https://img.shields.io/badge/.NET%2010-Nativo%20Autocontenido-8b5cf6?style=for-the-badge&logo=dotnet)](https://torketoolkit.com/)
 [![Privacidad](https://img.shields.io/badge/Telemetr%C3%ADa-Cero%20(100%25%20Offline)-10b981?style=for-the-badge)](https://github.com/OptiRoder/TorkeToolkit-Suite)
 
-🌐 **[Sitio Web Oficial](https://torketoolkit.com/)** • 📥 **[Descargar Última Versión (v3.3.1)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[English (README.md)](./README.md)** • 📋 **[Changelog](./CHANGELOG_es.md)**
+🌐 **[Sitio Web Oficial](https://torketoolkit.com/)** • 📥 **[Descargar Última Versión (v3.3.2)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[English (README.md)](./README.md)** • 📋 **[Changelog](./CHANGELOG_es.md)**
 
 ---
 
@@ -23,12 +23,12 @@
 
 ---
 
-## 📥 Descargas Oficiales (`v3.3.1`)
+## 📥 Descargas Oficiales (`v3.3.2`)
 
 | Edición | Formato | Tamaño | Ideal Para | Enlace Directo |
 | :--- | :--- | :--- | :--- | :--- |
-| **Instalador Oficial (Recomendado)** | Setup Guiado `.EXE` | ~60 MB | PCs Personales y Gaming (Accesos directos en Escritorio/Inicio + desinstalador limpio) | [**Descargar Setup v3.3.1**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Setup-v3.3.1.exe) |
-| **Edición Portable Técnica** | `.EXE` Autocontenido | ~65 MB | Memorias USB, Técnicos y Soporte en Sitio (Sin instalación, cero residuos) | [**Descargar Portable v3.3.1**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Portable-v3.3.1.exe) |
+| **Instalador Oficial (Recomendado)** | Setup Guiado `.EXE` | ~60 MB | PCs Personales y Gaming (Accesos directos en Escritorio/Inicio + desinstalador limpio) | [**Descargar Setup v3.3.2**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Setup-v3.3.2.exe) |
+| **Edición Portable Técnica** | `.EXE` Autocontenido | ~65 MB | Memorias USB, Técnicos y Soporte en Sitio (Sin instalación, cero residuos) | [**Descargar Portable v3.3.2**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Portable-v3.3.2.exe) |
 
 ### ⚡ Ejecución Instantánea por PowerShell (Administrador)
 
@@ -42,10 +42,11 @@ irm https://torketoolkit.com/toolkit.ps1 | iex
 
 ## 🛠️ Documentación de Módulos
 
+0. **💾 Migración y Backup PC → PC (`NUEVO en v3.3.2`):** Respalda y restaura **20 módulos** (archivos, perfiles Wi-Fi, marcadores, tema/wallpaper, fuentes, Sticky Notes, Game Saves, OBS Studio, Office/Outlook, VS Code/Git/Terminal, licencias OEM y drivers opcionales) con **4 presets rápidos**, **cifrado AES-256-GCM opcional**, aviso de partición `C:` y **reporte HTML interactivo de todos los programas instalados** con enlaces Winget / URL Oficial / Búsqueda + reinstalación 1-clic.
 1. **⚡ Motor de Optimización y Latencia:** 5 perfiles calibrados (`Minimal`, `Safe`, `Recommended`, `Gaming`, `Extreme`), ajustes de kernel/BCD/MMCSS y reversión en 1 clic mediante Snapshots y Puntos de Restauración.
 2. **🎮 Gaming Pro, Torke HUD, Boost Sostenido y Reductor RAM Win11:** Gaming Readiness Score (`0%`–`100%`), **Torke HUD ETW (`Ctrl+Shift+O`, FPS/Frametime/1% Low sin inyección)**, **Boost CPU Sostenido (`0%` EPP en AC + PowerThrottling OFF)**, **+1,000 juegos y emuladores** con Modo Agresivo, Reductor Modular de 7 módulos Windows 11 y menú oscuro rápido en bandeja (RAM, DNS, Game Booster y Modo Eco).
-3. **🧩 Centro de Drivers Oficiales (Sin Windows Update):** Consultas directas por HTTPS al **Microsoft Update Catalog** y **API Oficial de NVIDIA**, detección de CPU y todas las GPUs, cola multiselección con botón *Seleccionar Todo*, instalación silenciosa de paquetes WHQL `.cab` con `pnputil` y protección de periféricos USB/Input.
-4. **📦 Instalador de Software Multihilo (`1x`–`5x`):** Selector de descargas simultáneas (`1x` a `5x`) y porcentaje real en vivo (`0%`–`100%`) en Winget, Chocolatey y Descargas Directas.
+3. **🧩 Centro de Drivers Oficiales DCH + PnP Nativo (Sin Windows Update):** Consultas directas por HTTPS al **Microsoft Update Catalog** y **API Oficial de NVIDIA**, soporte completo **DCH multi-CAB** (Base → Extension → Component), validación de Hardware ID / `CompatibleIDs` en el `.inf`, **fallback PnP nativo con `newdev.dll`** para *Microsoft Basic Display* / *Error 28*, detección de dispositivos sin driver y **Auto-Instalar Todo (1-Clic)** con protección USB/Input.
+4. **📦 Instalador de Software Multihilo (`1x`–`5x`) + Mis Apps Personalizadas:** Selector de descargas simultáneas (`1x` a `5x`), porcentaje real en vivo (`0%`–`100%`) y sección **Mis Apps (Propias)** con categorías colapsables, JSON import/export, probador de links y scripts PowerShell.
 5. **🔋 Torke Battery Guard, Carga Inteligente y Ahorro Extremo:** Telemetría nativa por `IOCTL_BATTERY_QUERY_INFORMATION` + WMI, modos Fijo/Programado/Adaptativo, **Modo Ahorro de Batería Extremo (1-clic reversible con snapshot auto y restauración al conectar AC)**, visor gráfico de informe de batería, integración OEM (**ASUS, Lenovo, Dell, HP**) y soporte de enchufe inteligente HTTP.
 6. **🩺 Autodiagnóstico Integral de 12 Puntos:** Audita disco `C:`, S.M.A.R.T., temperaturas, errores PnP, desgaste de batería, RAM, servicios críticos, reinicios pendientes, Minidumps BSOD, red/DNS, Firewall y runtimes VC++.
 7. **🛠️ Suite de Taller Técnico (Nivel 3):** Modo USB Portable para **PCs ilimitadas de clientes**, reportes vectoriales Antes/Después en **PDF**, reparaciones rápidas de Windows y cifrador AES-256.

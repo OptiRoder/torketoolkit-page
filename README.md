@@ -1,15 +1,15 @@
 <div align="center">
 
-# ⚡ TorkeToolkit Suite `v3.3.1`
+# ⚡ TorkeToolkit Suite `v3.3.2`
 
 **The Ultimate Windows 10 & 11 Performance, Driver Center, Battery Guard & IT Technician Suite**
 
-[![Latest Release](https://img.shields.io/badge/Release-v3.3.1-3b82f6?style=for-the-badge&logo=github)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)
+[![Latest Release](https://img.shields.io/badge/Release-v3.3.2-3b82f6?style=for-the-badge&logo=github)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078d4?style=for-the-badge&logo=windows)](https://torketoolkit.com/)
 [![Runtime](https://img.shields.io/badge/.NET%2010-Native%20Self--Contained-8b5cf6?style=for-the-badge&logo=dotnet)](https://torketoolkit.com/)
 [![Privacy](https://img.shields.io/badge/Telemetry-Zero%20(100%25%20Offline)-10b981?style=for-the-badge)](https://github.com/OptiRoder/TorkeToolkit-Suite)
 
-🌐 **[Official Website](https://torketoolkit.com/)** • 📥 **[Download Latest Release (v3.3.1)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[Español (README_es.md)](./README_es.md)** • 📋 **[Changelog](./CHANGELOG.md)**
+🌐 **[Official Website](https://torketoolkit.com/)** • 📥 **[Download Latest Release (v3.3.2)](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest)** • 📖 **[Español (README_es.md)](./README_es.md)** • 📋 **[Changelog](./CHANGELOG.md)**
 
 ---
 
@@ -23,12 +23,12 @@
 
 ---
 
-## 📥 Official Downloads (`v3.3.1`)
+## 📥 Official Downloads (`v3.3.2`)
 
 | Edition | Format | Size | Best For | Direct Link |
 | :--- | :--- | :--- | :--- | :--- |
-| **Official Installer (Recommended)** | Guided `.EXE` Setup | ~60 MB | Personal PCs & Gaming Rigs (Desktop/Start Menu shortcuts + clean Control Panel uninstaller) | [**Download Setup v3.3.1**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Setup-v3.3.1.exe) |
-| **Portable Technician Edition** | Standalone `.EXE` | ~65 MB | USB Flash Drives, IT Technicians & On-Site Support (Zero installation, zero leftover traces) | [**Download Portable v3.3.1**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Portable-v3.3.1.exe) |
+| **Official Installer (Recommended)** | Guided `.EXE` Setup | ~60 MB | Personal PCs & Gaming Rigs (Desktop/Start Menu shortcuts + clean Control Panel uninstaller) | [**Download Setup v3.3.2**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Setup-v3.3.2.exe) |
+| **Portable Technician Edition** | Standalone `.EXE` | ~65 MB | USB Flash Drives, IT Technicians & On-Site Support (Zero installation, zero leftover traces) | [**Download Portable v3.3.2**](https://github.com/OptiRoder/TorkeToolkit-Suite/releases/latest/download/TorkeToolkit-Portable-v3.3.2.exe) |
 
 ### ⚡ Instant PowerShell Launch (Administrator)
 
@@ -41,6 +41,11 @@ irm https://torketoolkit.com/toolkit.ps1 | iex
 ---
 
 ## 🛠️ Complete Module Documentation
+
+### 0. 💾 PC-to-PC Migration & Backup (`NEW in v3.3.2`)
+- **20 Modular Backup Categories & 4 Quick Presets:** User files + extra folders, saved Wi-Fi profiles (`netsh wlan`), browser bookmarks, Windows theme/wallpaper/Explorer settings, user fonts, Sticky Notes, Game Saves, OBS Studio scenes, Office templates & Outlook signatures, Dev configs (VS Code + extensions, Git, Terminal, `hosts`), VPNs/mapped drives/printers, Windows/OEM license keys, and optional same-PC drivers.
+- **Full Installed Programs Inventory + Download Sources:** Scans all 3 Windows Uninstall registry hives + `winget export`, matches `WingetId`s, extracts official URLs, and builds a searchable interactive HTML report (`View Apps List`) with 1-click Winget reinstall.
+- **AES-256-GCM Optional Encryption & Safe Merge Restore:** Password-protects sensitive modules, checks target drive free space, warns before targeting `C:` prior to formatting, and restores without overwriting existing files by default.
 
 ### 1. ⚡ System Optimization & Latency Engine
 - **5 Calibrated Profiles:** `Minimal`, `Safe`, `Recommended`, `Gaming (FPS + Latency)`, and `Extreme`.

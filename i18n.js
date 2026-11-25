@@ -5,7 +5,7 @@
 const I18N_DATA = {
     es: {
         meta_title: "TorkeToolkit — Suite de Rendimiento, Mantenimiento y Taller para Windows",
-        meta_desc: "TorkeToolkit v3.3.1 — Software nativo de optimización, instalador inteligente de programas, monitor en vivo y suite técnica para Windows 10 y 11. Sin suscripciones ni telemetría.",
+        meta_desc: "TorkeToolkit v3.3.2 — Software nativo de optimización, instalador inteligente de programas, monitor en vivo y suite técnica para Windows 10 y 11. Sin suscripciones ni telemetría.",
         
         // Navbar
         nav_features: "Características",
@@ -19,7 +19,7 @@ const I18N_DATA = {
         nav_download_btn: "Descargar",
 
         // Hero
-        hero_badge: "TorkeToolkit v3.3.1 Oficial",
+        hero_badge: "TorkeToolkit v3.3.2 Oficial",
         hero_title_html: "La Suite Definitiva de <span class=\"gradient-text\">Rendimiento, Mantenimiento</span> y Taller para Windows",
         hero_sub: "Software nativo en C# (.NET 10) que optimiza la latencia del sistema, instala aplicaciones sin publicidad, diagnostica hardware en tiempo real y genera informes técnicos en PDF. Cero telemetría. Sin suscripciones mensuales.",
         hero_btn_installer: "Descargar Instalador (.exe)",
@@ -93,7 +93,7 @@ const I18N_DATA = {
         dl_c1_f2: "Acceso directo en Menú Inicio y Escritorio",
         dl_c1_f3: "Desinstalador limpio integrado",
         dl_c1_f4: "Actualización automática asistida",
-        dl_c1_btn: "Descargar Instalador (v3.3.1)",
+        dl_c1_btn: "Descargar Instalador (v3.3.2)",
 
         dl_c2_title: "Edición Portable",
         dl_c2_sub: "Sin Instalación · Standalone / ZIP (~60 MB)",
@@ -185,7 +185,7 @@ const I18N_DATA = {
 
     en: {
         meta_title: "TorkeToolkit — Windows Performance, Maintenance & Workshop Suite",
-        meta_desc: "TorkeToolkit v3.3.1 — Native optimization software, intelligent app installer, real-time hardware monitor, and IT workshop suite for Windows 10 & 11. No subscriptions, zero telemetry.",
+        meta_desc: "TorkeToolkit v3.3.2 — Native optimization software, intelligent app installer, real-time hardware monitor, and IT workshop suite for Windows 10 & 11. No subscriptions, zero telemetry.",
         
         // Navbar
         nav_features: "Features",
@@ -199,7 +199,7 @@ const I18N_DATA = {
         nav_download_btn: "Download",
 
         // Hero
-        hero_badge: "TorkeToolkit v3.3.1 Official",
+        hero_badge: "TorkeToolkit v3.3.2 Official",
         hero_title_html: "The Ultimate <span class=\"gradient-text\">Performance, Maintenance</span> & Workshop Suite for Windows",
         hero_sub: "Native C# (.NET 10) application that optimizes system latency, installs software clean and ad-free, diagnoses hardware in real time, and generates certified technical PDF reports. Zero telemetry. No monthly subscriptions.",
         hero_btn_installer: "Download Installer (.exe)",
@@ -273,7 +273,7 @@ const I18N_DATA = {
         dl_c1_f2: "Start Menu & Desktop shortcuts",
         dl_c1_f3: "Clean uninstaller included",
         dl_c1_f4: "Assisted auto-update system",
-        dl_c1_btn: "Download Installer (v3.3.1)",
+        dl_c1_btn: "Download Installer (v3.3.2)",
 
         dl_c2_title: "Portable Edition",
         dl_c2_sub: "No Installation · Standalone / ZIP (~60 MB)",
@@ -365,7 +365,7 @@ const I18N_DATA = {
 
     pt: {
         meta_title: "TorkeToolkit — Suite de Desempenho, Manutenção e Oficina para Windows",
-        meta_desc: "TorkeToolkit v3.3.1 — Software nativo de otimização, instalador inteligente de aplicativos, monitor em tempo real e suite técnica para Windows 10 e 11. Sem assinaturas nem telemetria.",
+        meta_desc: "TorkeToolkit v3.3.2 — Software nativo de otimização, instalador inteligente de aplicativos, monitor em tempo real e suite técnica para Windows 10 e 11. Sem assinaturas nem telemetria.",
         
         // Navbar
         nav_features: "Recursos",
@@ -379,7 +379,7 @@ const I18N_DATA = {
         nav_download_btn: "Baixar",
 
         // Hero
-        hero_badge: "TorkeToolkit v3.3.1 Oficial",
+        hero_badge: "TorkeToolkit v3.3.2 Oficial",
         hero_title_html: "A Suite Definitiva de <span class=\"gradient-text\">Desempenho, Manutenção</span> e Oficina para Windows",
         hero_sub: "Software nativo em C# (.NET 10) que otimiza a latência do sistema, instala aplicativos sem anúncios, diagnostica hardware em tempo real e gera relatórios técnicos em PDF. Zero telemetria. Sem assinaturas mensais.",
         hero_btn_installer: "Baixar Instalador (.exe)",
@@ -453,7 +453,7 @@ const I18N_DATA = {
         dl_c1_f2: "Atalhos no Menu Iniciar e Área de Trabalho",
         dl_c1_f3: "Desinstalador limpo integrado",
         dl_c1_f4: "Atualização automática assistida",
-        dl_c1_btn: "Baixar Instalador (v3.3.1)",
+        dl_c1_btn: "Baixar Instalador (v3.3.2)",
 
         dl_c2_title: "Edição Portátil",
         dl_c2_sub: "Sem Instalação · Standalone / ZIP (~60 MB)",
